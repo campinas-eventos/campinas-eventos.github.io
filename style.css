@@ -273,7 +273,7 @@ main > ul > li,
 h4 + ul > li {
   position: relative;
   min-height: auto;
-  padding: 11px 12px 11px 24px;
+  padding: 11px 12px 11px 32px;
   border-bottom: 1px solid var(--border);
   color: var(--text-muted);
   font-size: 0.94rem;
@@ -288,13 +288,17 @@ main > ul > li::before,
 h4 + ul > li::before {
   content: "";
   position: absolute;
-  top: 19px;
-  left: 5px;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--secondary), var(--primary));
-  box-shadow: 0 0 10px rgba(56, 189, 248, 0.45);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 18px;
+  height: 18px;
+
+  background-image: url("./icones/link-white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 main > ul > li:hover,
