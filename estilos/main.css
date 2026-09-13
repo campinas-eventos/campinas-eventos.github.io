@@ -86,33 +86,6 @@ body {
   color: var(--secondary);
 }
 
-.main-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 6px;
-  list-style: none;
-}
-
-.main-nav a {
-  display: block;
-  padding: 7px 12px;
-  border-radius: 9px;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-weight: 650;
-  text-decoration: none;
-  transition:
-    color 0.2s ease,
-    background 0.2s ease;
-}
-
-.main-nav a:hover,
-.main-nav a.active {
-  color: #ffffff;
-  background: rgba(167, 139, 250, 0.2);
-}
-
 /* Cabeçalho das páginas */
 
 .hero {
@@ -295,7 +268,7 @@ h4 + ul > li::before {
   width: 18px;
   height: 18px;
 
-  background-image: url("./icones/link-white.png");
+  background-image: url("../icones/link-white.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -365,20 +338,6 @@ strong {
     position: static;
     margin-bottom: 24px;
     padding: 14px;
-  }
-
-  .main-nav {
-    width: 100%;
-  }
-
-  .main-nav ul {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-
-  .main-nav a {
-    text-align: center;
   }
 
   .hero {
