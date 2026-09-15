@@ -22,11 +22,6 @@ eventos.set("Feiras e eventos culturais", [
         "https://www.instagram.com/feira.cult"
     ),
     new Evento(
-        "Museu de Imagem e Som (MIS): ",
-        "espaço com exibição quase diária de filmes gratuitos e exposições artísticas.",
-        "https://www.instagram.com/mis.campinas/"
-    ),
-    new Evento(
         "Sala dos Toninhos: ",
         "ponto de cultura e resistência localizado no complexo da Estação Cultura.",
         "https://www.instagram.com/saladostoninhos/"
@@ -41,6 +36,21 @@ eventos.set("Feiras e eventos culturais", [
         "oferece uma programação cultural que destaca espetáculos infantis, musicais, comédias e shows de stand-up comedy.",
         "https://www.teatrooficinadoestudante.com.br/atracoes/"
     ),
+    new Categoria(
+        "Cinema",
+        [
+            new Evento(
+                "Cineclube Terracota: ",
+                "programação e bastidores de um projeto cultural de exibições gratuitas de filmes e debates realizado na Cidade Universitária",
+                "https://www.instagram.com/cineclubeterracota"
+            ),
+            new Evento(
+                "Museu de Imagem e Som (MIS): ",
+                "espaço com exibição quase diária de filmes gratuitos e exposições artísticas.",
+                "https://www.instagram.com/mis.campinas/"
+            ),
+        ]
+    )
 ]);
 
 eventos.set("Páginas de divulgação", [
@@ -62,13 +72,13 @@ eventos.set("Páginas de divulgação", [
     new Categoria(
         "Eventos específicos", [
             new Evento(
-                "Essence 808",
-                "",
+                "Essence 808: ",
+                "festa de Black Charme",
                 "https://www.instagram.com/essence__808/"
             ),
             new Evento(
-                "O Som de Preto",
-                "",
+                "O Som de Preto: ",
+                "projeto e festival cultural voltado à valorização da música preta. Foca em ritmos como charme, hip hop, R&B, rap e trap",
                 "https://www.instagram.com/osomdepreto/"
             ),
             new Evento(
@@ -81,6 +91,11 @@ eventos.set("Páginas de divulgação", [
 ]);
 
 eventos.set("Casas de show e bares", [
+    new Evento(
+        "CAOS: ",
+        "um dos maiores clubes de música eletrônica do interior de SP",
+        "https://www.instagram.com/caoscampinas/"
+    ),
     new Evento(
         "Noturna Club: ",
         "Casa com estética gótica/dark • atmosfera imersiva • rolê alternativo",
@@ -160,6 +175,7 @@ eventos.set("Cultura geek", [
         ),
     ]),
 ]);
+
 export default function Campinas() {
     return criarEventos("Campinas", eventos)
 }

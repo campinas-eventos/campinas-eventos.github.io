@@ -182,14 +182,6 @@ body {
             background 0.2s ease;
 }
 
-.page-card:hover {
-    transform: translateY(-4px);
-    border-color: rgba(167, 139, 250, 0.6);
-    color: var(--text-muted);
-    background: var(--surface-hover);
-    text-decoration: none;
-}
-
 .page-card h2 {
     margin-bottom: 8px;
     color: #ffffff;
@@ -284,23 +276,11 @@ h4 + ul > li::before {
     background-position: center;
 }
 
-main > ul > li:hover,
-h4 + ul > li:hover {
-    padding-left: 29px;
-    background: var(--surface-hover);
-}
-
 a {
     color: #ddd6fe;
     font-weight: 650;
     text-decoration: none;
     transition: color 0.2s ease;
-}
-
-a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-    text-underline-offset: 3px;
 }
 
 strong {
@@ -312,7 +292,6 @@ strong {
 .footer {
     margin-top: 58px;
     padding-top: 22px;
-    border-top: 1px solid var(--border);
     color: #94a3b8;
     font-size: 0.88rem;
     text-align: center;
@@ -438,11 +417,6 @@ strong {
     background: rgba(56, 189, 248, 0.12);
 }
 
-.lista-recolhivel summary:hover {
-    color: #ffffff;
-    background: var(--surface-hover);
-}
-
 .lista-recolhivel summary:focus-visible {
     outline: 2px solid var(--secondary);
     outline-offset: 3px;
@@ -453,8 +427,6 @@ strong {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0 28px;
-
-    padding: 0 0 14px;
 }
 
 .lista-recolhivel .lista-eventos li {
@@ -472,6 +444,10 @@ strong {
             background 0.2s ease;
 }
 
+.lista-recolhivel .lista-eventos li:last-child {
+    border-bottom: 1px solid transparent;
+}
+
 .lista-recolhivel .lista-eventos li::before {
     content: "";
     position: absolute;
@@ -484,11 +460,6 @@ strong {
 
     background: linear-gradient(135deg, var(--secondary), var(--primary));
     box-shadow: 0 0 10px rgba(56, 189, 248, 0.45);
-}
-
-.lista-recolhivel .lista-eventos li:hover {
-    padding-left: 29px;
-    background: var(--surface-hover);
 }
 
 /* Animação visual discreta ao abrir */
