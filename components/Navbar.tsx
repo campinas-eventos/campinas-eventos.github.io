@@ -1,30 +1,47 @@
 "use client";
 
 import Link from "next/link";
-import './Navbar.css'
+import { useMemo, useState } from "react";
 import { usePathname } from "next/navigation";
+import "./Navbar.css";
 
-const links = [
-    {
-        label: "Plataformas gerais",
-        href: "/",
-    },
-    {
-        label: "Campinas",
-        href: "/campinas",
-    },
-    {
-        label: "Sumaré",
-        href: "/sumare",
-    },
-    {
-        label: "Indaiatuba",
-        href: "/indaiatuba"
-    }
+type Cidade = {
+    nome: string;
+    rota: string;
+};
+
+const cidades: Cidade[] = [
+    { nome: "Campinas", rota: "campinas" },
+    { nome: "Sumaré", rota: "sumare" },
+    { nome: "Indaiatuba", rota: "indaiatuba" },
 ];
 
 export default function Navbar() {
     const pathname = usePathname();
+    const [search, setSearch] = useState("");
+
+    const filteredCities = useMemo(() => {
+        const normalizedSearch = search
+            .toLocaleLowerCase("pt-BR")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "");
+
+        return cidades.filter((city) => {
+            const normalizedLabel = city.nome
+                .toLocaleLowerCase("pt-BR")
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "");
+
+            return normalizedLabel.includes(normalizedSearch);
+        });
+    }, [search]);
+
+    const isHomeActive = pathname === "/";
+    const hasActiveCity = cidades.some(
+        (city) =>
+            pathname === `/${city.rota}` ||
+            pathname.startsWith(`/${city.rota}/`)
+    );
 
     return (
         <header className="site-header">
@@ -34,21 +51,67 @@ export default function Navbar() {
 
             <nav className="main-nav" aria-label="Navegação principal">
                 <ul>
-                    {links.map((link) => {
-                        const isActive = pathname === link.href;
+                    <li>
+                        <Link
+                            className={isHomeActive ? "active" : undefined}
+                            href="/"
+                            aria-current={isHomeActive ? "page" : undefined}
+                        >
+                            Plataformas gerais
+                        </Link>
+                    </li>
 
-                        return (
-                            <li key={link.href}>
-                                <Link
-                                    className={isActive ? "active" : undefined}
-                                    href={link.href}
-                                    aria-current={isActive ? "page" : undefined}
-                                >
-                                    {link.label}
-                                </Link>
-                            </li>
-                        );
-                    })}
+                    <li className="cities-item">
+                        <details>
+                            <summary className={hasActiveCity ? "active" : undefined}>
+                                Cidades
+                            </summary>
+
+                            <div className="cities-menu">
+                                <label htmlFor="city-search" className="sr-only">
+                                    Buscar cidade
+                                </label>
+
+                                <input
+                                    id="city-search"
+                                    type="search"
+                                    placeholder="Buscar cidade..."
+                                    value={search}
+                                    onChange={(event) =>
+                                        setSearch(event.target.value)
+                                    }
+                                />
+
+                                <div className="cities-list">
+                                    {filteredCities.length > 0 ? (
+                                        filteredCities.map((city) => {
+                                            const href = `/${city.rota}`;
+                                            const isActive =
+                                                pathname === href ||
+                                                pathname.startsWith(`${href}/`);
+
+                                            return (
+                                                <Link
+                                                    key={city.rota}
+                                                    href={href}
+                                                    className={isActive ? "active" : undefined}
+                                                    aria-current={
+                                                        isActive ? "page" : undefined
+                                                    }
+                                                >
+                                                    {city.nome}
+                                                </Link>
+                                            );
+                                        })
+                                    ) : (
+                                        <span className="no-results">
+                                            Nenhuma cidade encontrada
+                                        </span>
+                                    )}
+                                </div>
+                            </div>
+                        </details>
+                    </li>
                 </ul>
             </nav>
         </header>

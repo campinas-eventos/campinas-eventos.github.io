@@ -1,12 +1,29 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.logo {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
 .main-nav ul {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: flex-end;
     gap: 6px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
-.main-nav a {
+.main-nav a,
+.main-nav summary {
     display: block;
     padding: 7px 12px;
     border-radius: 9px;
@@ -14,18 +31,109 @@
     font-size: 0.9rem;
     font-weight: 650;
     text-decoration: none;
+    cursor: pointer;
     transition:
             color 0.2s ease,
             background 0.2s ease;
 }
 
 .main-nav a:hover,
-.main-nav a.active {
+.main-nav a.active,
+.main-nav summary:hover,
+.main-nav summary.active {
     color: #ffffff;
     background: rgba(167, 139, 250, 0.2);
 }
 
+.main-nav summary {
+    list-style: none;
+}
+
+.main-nav summary::-webkit-details-marker {
+    display: none;
+}
+
+.main-nav summary::after {
+    content: "⌄";
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 0.75rem;
+    transition: transform 0.2s ease;
+}
+
+.main-nav details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+.cities-item {
+    position: relative;
+}
+
+.cities-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    z-index: 10;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: #111827;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.cities-menu input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 9px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    outline: none;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+    font: inherit;
+}
+
+.cities-menu input:focus {
+    border-color: #a78bfa;
+}
+
+.cities-list {
+    display: grid;
+    max-height: 280px;
+    overflow-y: auto;
+    gap: 3px;
+}
+
+.cities-list a {
+    padding: 8px 10px;
+    border-radius: 7px;
+}
+
+.no-results {
+    padding: 10px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 @media (max-width: 620px) {
+    .site-header {
+        flex-wrap: wrap;
+    }
+
     .main-nav {
         width: 100%;
     }
@@ -36,7 +144,22 @@
         width: 100%;
     }
 
-    .main-nav a {
+    .main-nav a,
+    .main-nav summary {
         text-align: center;
+    }
+
+    .cities-item {
+        width: 100%;
+    }
+
+    .cities-menu {
+        position: static;
+        width: auto;
+        margin-top: 6px;
+    }
+
+    .cities-list {
+        max-height: 240px;
     }
 }
