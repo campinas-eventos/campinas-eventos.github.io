@@ -12,8 +12,9 @@ type Cidade = {
 
 const cidades: Cidade[] = [
     { nome: "Campinas", rota: "campinas" },
-    { nome: "Sumaré", rota: "sumare" },
     { nome: "Indaiatuba", rota: "indaiatuba" },
+    { nome: "Sumaré", rota: "sumare" },
+    { nome: "Valinhos", rota: "valinhos"}
 ];
 
 export default function Navbar() {
