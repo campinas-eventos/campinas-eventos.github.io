@@ -12,8 +12,8 @@ eventos.set("Feiras e eventos culturais", [
         "https://www.instagram.com/centrodeconvivenciacampinas/"
     ),
     new Evento(
-        "Dia de Feira",
-        "Feira livres de cultura urbana",
+        "Dia de Feira: ",
+        "Feiras livres de cultura urbana.",
         "https://www.instagram.com/feira.diade/"
     ),
     new Evento(
