@@ -12,12 +12,6 @@ export default function RootLayout(
                     <Navbar/>
                     <main className="main-content">{children}</main>
                     <footer className="footer">
-                        <p>
-                            <a
-                                href="https://www.flaticon.com/free-icons/link"
-                                title="link icons"
-                            > Ícones obtidos em Magnific - Flaticon </a>
-                        </p>
                     </footer>
                 </div>
             </body>
