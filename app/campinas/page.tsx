@@ -12,6 +12,11 @@ eventos.set("Feiras e eventos culturais", [
         "https://www.instagram.com/centrodeconvivenciacampinas/"
     ),
     new Evento(
+        "Dia de Feira",
+        "Feira livres de cultura urbana",
+        "https://www.instagram.com/feira.diade/"
+    ),
+    new Evento(
         "Espaço Cultural Veneza: ",
         "divulgação e organização de eventos focados em atividades artísticas e culturais, incluindo espetáculos de teatro, oficinas formativas, saraus e mostras artísticas.",
         "https://www.instagram.com/veneza.campinas"
