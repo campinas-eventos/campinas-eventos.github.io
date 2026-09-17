@@ -65,6 +65,16 @@ eventos.set("Páginas de divulgação", [
         "https://www.instagram.com/baileyarte_/"
     ),
     new Evento(
+        "Calendário de eventos da Prefeitura de Campinas",
+        "",
+        "https://www.campinas.sp.gov.br/eventos"
+    ),
+    new Evento(
+        "Campinas.com.br: ",
+        "Agenda cultural e de lazer de Campinas e região, com eventos de teatro, shows, exposições, cinema, turismo, gastronomia, esporte e atividades para crianças.",
+        "https://campinas.com.br/agenda/"
+    ),
+    new Evento(
         "Campinas Cultura e Turismo: ",
         "perfil oficial do instagram da Secretaria de Cultura e Turismo de Campinas",
         "https://www.instagram.com/campinas.culturaturismo/"

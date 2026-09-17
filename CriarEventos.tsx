@@ -2,12 +2,16 @@ import ItemLista from "@/dtos/ItemLista";
 import Evento from "@/dtos/Evento";
 import Categoria from "@/dtos/Categoria";
 
-export default function criarEventos(cidade: string, eventos: Map<string, ItemLista[]>): React.ReactNode {
+export default function criarEventos(
+    titulo: string,
+    eventos: Map<string, ItemLista[]>,
+    itemExpandido: boolean = false
+): React.ReactNode {
     return <main>
-        <h2>Eventos em {cidade}</h2>
+        {titulo !== "" ? <h2>{titulo}</h2> : null}
 
         {Array.from(eventos.entries()).map(([titulo, itens]) => (
-            <details key={titulo} className="lista-recolhivel">
+            <details key={titulo} className="lista-recolhivel" open={itemExpandido}>
                 <summary>{titulo}</summary>
                 <ul className="lista-eventos">
                     {itens.map((item) => {
