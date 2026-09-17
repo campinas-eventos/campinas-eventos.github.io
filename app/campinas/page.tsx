@@ -147,6 +147,11 @@ eventos.set("Casas de show e bares", [
 
     new Categoria("Cambuí/Taquaral/Centro", [
         new Evento(
+            "Alma Campinas: ",
+            "bar no Cambuí com música variada, incluindo jazz, bossa nova, samba, soul, black music, R&B e funky soul.",
+            "https://www.instagram.com/almacampinas"
+        ),
+        new Evento(
             "Alma Grey Bowl: ",
             "bar no Novo Taquaral com pista de skate interna, música, gastronomia e cultura urbana.",
             "https://www.instagram.com/almagreybowl/"
