@@ -102,6 +102,11 @@ eventos.set("Casas de show e bares", [
         "https://www.instagram.com/caoscampinas/"
     ),
     new Evento(
+        "Jimmy Rocker: ",
+        "rock ao vivo.",
+        "https://www.instagram.com/jimmyrockerbar/"
+    ),
+    new Evento(
         "Noturna Club: ",
         "Casa com estética gótica/dark • atmosfera imersiva • rolê alternativo",
         "https://www.instagram.com/noturnaclub/"

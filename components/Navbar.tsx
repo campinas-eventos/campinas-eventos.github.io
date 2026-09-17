@@ -11,6 +11,7 @@ type Cidade = {
 };
 
 const cidades: Cidade[] = [
+    { nome: "Americana", rota: "americana" },
     { nome: "Campinas", rota: "campinas" },
     { nome: "Indaiatuba", rota: "indaiatuba" },
     { nome: "Sumaré", rota: "sumare" },
