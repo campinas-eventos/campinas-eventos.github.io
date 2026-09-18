@@ -12,16 +12,21 @@ eventos.set("Comunidades online", [
   ),
 ]);
 
-eventos.set("Eventos por todo o Brasil", [
+eventos.set("Plataformas de divulgação nacional", [
   new Evento(
       "Calendário nerd: ",
-      "plataforma que permite buscar eventos da cultura geek, como feiras, convenções, encontros de cosplay, games, animes, quadrinhos e RPG.",
+      "Plataforma que permite buscar eventos da cultura geek, como feiras, convenções, encontros de cosplay, games, animes, quadrinhos e RPG.",
       "https://calendarionerd.com.br/"
   ),
   new Evento(
       "Lista de eventos do Shazam: ",
       "Página destinada a encontrar shows e eventos musicais em qualquer região.",
       "https://www.shazam.com/pt-br/events/campinas-sp-brasil"
+  ),
+  new Evento(
+      "Top rated online: ",
+      "Plataforma em inglês com busca avançada para locais no google maps",
+      "https://www.top-rated.online/"
   ),
 ]);
 

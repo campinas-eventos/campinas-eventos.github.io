@@ -112,6 +112,11 @@ eventos.set("Casas de show e bares", [
         "https://www.instagram.com/caoscampinas/"
     ),
     new Evento(
+        "Club 88: ",
+        "festas, shows ao vivo, festas pop, eletrônicas e noites temáticas.",
+        "https://www.instagram.com/club88oficial/"
+    ),
+    new Evento(
         "Jimmy Rocker: ",
         "rock ao vivo.",
         "https://www.instagram.com/jimmyrockerbar/"
@@ -164,7 +169,7 @@ eventos.set("Casas de show e bares", [
     ]),
 ]);
 
-eventos.set("Cultura geek", [
+eventos.set("Cultura geek & otaku", [
     new Evento(
         "Anime Geek Eventos: ",
         "divulga um festival de cultura pop na região, organizando grandes encontros periódicos que reúnem concursos de cosplay, apresentações e dança K-Pop, arenas de games, feira de expositores e atividades abertas para o público otaku e nerd.",
@@ -175,6 +180,11 @@ eventos.set("Cultura geek", [
         "Calendário nerd: ",
         "plataforma que permite buscar eventos da cultura geek, como feiras, convenções, encontros de cosplay, games, animes, quadrinhos e RPG.",
         "https://calendarionerd.com.br/"
+    ),
+    new Evento(
+        "Nipo Campinas: ",
+        "Instituto Cultural Nipo Brasileiro de Campinas",
+        "https://www.instagram.com/nipocampinas/"
     ),
 
     new Categoria("RPG", [

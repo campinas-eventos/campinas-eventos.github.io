@@ -14,6 +14,8 @@ const cidades: Cidade[] = [
     { nome: "Americana", rota: "americana" },
     { nome: "Campinas", rota: "campinas" },
     { nome: "Indaiatuba", rota: "indaiatuba" },
+    { nome: "Jundiaí", rota: "jundiai" },
+    { nome: "Piracicaba", rota: "piracicaba" },
     { nome: "Sumaré", rota: "sumare" },
     { nome: "Valinhos", rota: "valinhos"}
 ];
