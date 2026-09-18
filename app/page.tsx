@@ -24,6 +24,12 @@ eventos.set("Plataformas de divulgação nacional", [
       "https://www.shazam.com/pt-br/events/campinas-sp-brasil"
   ),
   new Evento(
+      "Redbull eventos esportivos: ",
+      "Lista dos próximos eventos esportivos da redbull no Brasil.",
+      "https://www.redbull.com/br-pt/events/?filter.countryCode=BR&filter.toggle.date=upcoming&filter.toggle.live=all"
+  ),
+
+  new Evento(
       "Top rated online: ",
       "Plataforma em inglês com busca avançada para locais no google maps",
       "https://www.top-rated.online/"
