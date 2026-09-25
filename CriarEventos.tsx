@@ -1,4 +1,4 @@
-import {ItemLista} from "@/dtos/ItemLista";
+import ItemLista from "@/dtos/ItemLista";
 import Evento from "@/dtos/Evento";
 import Categoria from "@/dtos/Categoria";
 
