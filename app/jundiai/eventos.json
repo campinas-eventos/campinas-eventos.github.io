@@ -1,0 +1,16 @@
+{
+  "Casas de show e bares": [
+    {
+      "tipo": "evento",
+      "nome": "Dinossauro's Rock Bar",
+      "descricao": "bar com shows de rock ao vivo.",
+      "link": "https://www.instagram.com/dinossaurosrockbar"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Café Tequila",
+      "descricao": "shows ao vivo e karaokê.",
+      "link": "https://www.instagram.com/tequilajundiai/"
+    }
+  ]
+}

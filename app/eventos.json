@@ -1,0 +1,44 @@
+{
+  "Plataformas de divulgação nacional": [
+    {
+      "tipo": "evento",
+      "nome": "Calendário Nerd",
+      "descricao": "Plataforma que permite buscar eventos da cultura geek, como feiras, convenções, encontros de cosplay, games, animes, quadrinhos e RPG.",
+      "link": "https://calendarionerd.com.br/"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Red Bull",
+      "descricao": "Lista dos próximos eventos esportivos da Red Bull no Brasil.",
+      "link": "https://www.redbull.com/br-pt/events/?filter.countryCode=BR&filter.toggle.date=upcoming&filter.toggle.live=all"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Shazam",
+      "descricao": "Página destinada a encontrar shows e eventos musicais em qualquer região.",
+      "link": "https://www.shazam.com/pt-br/events/campinas-sp-brasil"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Top Rated Online",
+      "descricao": "Plataforma em inglês com busca avançada para locais no Google Maps.",
+      "link": "https://www.top-rated.online/"
+    }
+  ],
+
+  "Eventos pela região metropolitana de Campinas": [
+    {
+      "tipo": "evento",
+      "nome": "acidadeOn - Lazer e Cultura",
+      "descricao": "agenda cultural de Campinas, destacando eventos de lazer, festivais, shows e estreias de cinema na região",
+      "link": "https://www.acidadeon.com/campinas/lazer-e-cultura/"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Rolê Hj em Campinas",
+      "descricao": "Plataforma que agrega eventos dos sites de ingressos Cheers, Sympla, Byma, Ingresse, Ticket360 e Shotgun.",
+      "link": "https://rolehjemcampinas.pages.dev/"
+    }
+  ]
+
+}

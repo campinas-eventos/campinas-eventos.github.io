@@ -1,16 +1,7 @@
 import criarEventos from "@/CriarEventos";
-import ItemLista from "@/dtos/ItemLista";
-import Evento from "@/dtos/Evento";
-
-const eventos: Map<string, ItemLista[]> = new Map();
-eventos.set("Feiras e eventos culturais", [
-    new Evento(
-        "Secretaria de Cultura de Indaiatuba: ",
-        "Perfil oficial da Secretaria de Cultura de Indaiatuba.",
-        "https://www.instagram.com/culturaindaiatubaoficial/"
-    ),
-]);
+import json from './eventos.json'
+import ItemListaFactory from "@/dtos/ItemListaFactory";
 
 export default function Indaiatuba() {
-    return criarEventos("Indaiatuba", eventos)
+    return criarEventos("Indaiatuba", ItemListaFactory.fromJson(json))
 }

@@ -1,22 +1,7 @@
 import criarEventos from "@/CriarEventos";
-import ItemLista from "@/dtos/ItemLista";
-import Evento from "@/dtos/Evento";
-
-const eventos: Map<string, ItemLista[]> = new Map();
-
-eventos.set("Casas de show e bares", [
-    new Evento(
-        "Dinossauro's Rock Bar: ",
-        "bar com shows de rock ao vivo.",
-        "https://www.instagram.com/dinossaurosrockbar"
-    ),
-    new Evento(
-        "Café Tequila: ",
-        "shows ao vivo e karaokê.",
-        "https://www.instagram.com/tequilajundiai/"
-    ),
-]);
+import json from './eventos.json'
+import ItemListaFactory from "@/dtos/ItemListaFactory";
 
 export default function Jundiai() {
-    return criarEventos("Jundiaí", eventos)
+    return criarEventos("Jundiaí", ItemListaFactory.fromJson(json))
 }

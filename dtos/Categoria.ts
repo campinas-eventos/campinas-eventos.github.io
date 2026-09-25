@@ -8,4 +8,11 @@ export default class Categoria extends ItemLista {
         super(titulo)
         this.eventos = eventos
     }
+
+    static fromJson(json: any): Categoria {
+        return new Categoria(
+            json.nome,
+            json.itens.map((item: any) => Evento.fromJson(item))
+        )
+    }
 }

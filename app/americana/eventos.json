@@ -1,0 +1,19 @@
+{
+  "Feiras e eventos culturais": [
+    {
+      "tipo": "evento",
+      "nome": "Fábrica das Artes",
+      "descricao": "Espetáculos, apresentações e aulas de teatro.",
+      "link": "https://www.instagram.com/fabricadas.artes/"
+    }
+  ],
+
+  "Casas de show e bares": [
+    {
+      "tipo": "evento",
+      "nome": "Vibes Americana",
+      "descricao": "pista com música alternativa.",
+      "link": "https://www.instagram.com/vibes.americana/"
+    }
+  ]
+}

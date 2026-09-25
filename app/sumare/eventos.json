@@ -1,0 +1,36 @@
+{
+  "Casas de show e bares": [
+    {
+      "tipo": "evento",
+      "nome": "Fox Pub",
+      "descricao": "open bar, festas temáticas e shows com DJs e atrações regionais.",
+      "link": "https://www.instagram.com/fox.pubb/"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Hangar 888",
+      "descricao": "bar no centro da cidade, focado em baladas e camarotes.",
+      "link": "https://www.instagram.com/hangar888bar/"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Le Vive Boulevard",
+      "descricao": "centro comercial com shows ao vivo e diversas opções gastronômicas.",
+      "link": "https://www.instagram.com/leviveboulevard/"
+    }
+  ],
+  "Feiras e eventos culturais": [
+    {
+      "tipo": "evento",
+      "nome": "Secretaria de Cultura e Turismo de Sumaré",
+      "descricao": "perfil oficial que centraliza a divulgação de feiras artesanais, como a Feira Artes & Sabores e a Feira Sarau Cultural, além de grandes festas públicas na Praça das Bandeiras.",
+      "link": "https://www.instagram.com/culturasumare/"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Festival Curta Cenas",
+      "descricao": "principal festival de peças de teatro curtas da cidade, reunindo artistas locais e nacionais.",
+      "link": "https://www.instagram.com/curtacenas_sumare/"
+    }
+  ]
+}

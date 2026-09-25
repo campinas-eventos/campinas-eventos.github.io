@@ -1,0 +1,16 @@
+{
+  "Casas de show e bares": [
+    {
+      "tipo": "evento",
+      "nome": "Ame Club",
+      "descricao": "clube de música eletrônica.",
+      "link": "https://www.instagram.com/ame.club/"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Laroc Club",
+      "descricao": "clube de música eletrônica.",
+      "link": "https://www.instagram.com/larocclub/"
+    }
+  ]
+}

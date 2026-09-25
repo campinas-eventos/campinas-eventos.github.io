@@ -10,4 +10,12 @@ export default class Evento extends ItemLista {
         this.descricao = descricao
         this.url = url
     }
+
+    static fromJson(json: any): Evento {
+        return new Evento(
+            `${json.nome}: `,
+            json.descricao,
+            json.link
+        )
+    }
 }
