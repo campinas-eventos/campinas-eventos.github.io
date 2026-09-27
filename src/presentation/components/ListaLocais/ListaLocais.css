@@ -1,0 +1,28 @@
+.evento-cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.categoria {
+    padding: 2px 7px;
+    border: 1px solid rgb(143 169 255 / 0.5);
+    border-radius: 12px;
+    color: #a9dbff;
+    font-size: 12px;
+    line-height: 1.4;
+    text-transform: lowercase;
+}
+
+.descricao {
+    display: block;
+    margin-top: 4px;
+    color: #cbd3e4;
+}

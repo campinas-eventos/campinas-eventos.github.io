@@ -1,0 +1,411 @@
+{
+  "Feiras e eventos culturais": [
+    {
+      "tipo": "evento",
+      "nome": "Centro de Convivência Cultural no Cambuí",
+      "descricao": "ponto de encontro e difusão cultural da cidade, divulgando espetáculos de teatro, concertos musicais, mostras de dança, exposições artísticas e a tradicional feira de artesanato do Cambuí.",
+      "link": "https://www.instagram.com/centrodeconvivenciacampinas/",
+      "categorias": [
+        "teatro e artes cênicas",
+        "música",
+        "dança",
+        "artes visuais",
+        "feiras e economia criativa"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Dia de Feira",
+      "descricao": "Feiras livres de cultura urbana.",
+      "link": "https://www.instagram.com/feira.diade/",
+      "categorias": [
+        "feiras e economia criativa",
+        "cultura urbana e diversidade"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Espaço Cultural Veneza",
+      "descricao": "divulgação e organização de eventos focados em atividades artísticas e culturais, incluindo espetáculos de teatro, oficinas formativas, saraus e mostras artísticas.",
+      "link": "https://www.instagram.com/veneza.campinas",
+      "categorias": [
+        "teatro e artes cênicas",
+        "oficinas e formação",
+        "artes visuais",
+        "música"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Feira Cult",
+      "descricao": "projeto cultural independente com eventos focados na valorização da arte autoral, economia criativa e pequenos produtores locais, reunindo feira livre, exposições, oficinas gratuitas e pintura ao vivo.",
+      "link": "https://www.instagram.com/feira.cult",
+      "categorias": [
+        "feiras e economia criativa",
+        "artes visuais",
+        "oficinas e formação"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Sala dos Toninhos",
+      "descricao": "ponto de cultura e resistência localizado no complexo da Estação Cultura.",
+      "link": "https://www.instagram.com/saladostoninhos/",
+      "categorias": [
+        "cultura urbana e diversidade"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Sesc Campinas",
+      "descricao": "oferece uma programação voltada ao bem-estar e ao desenvolvimento social, reunindo shows musicais, espetáculos de teatro e dança, exibições de cinema, oficinas formativas, atividades literárias, além de vivências de lazer, esportes e saúde para todas as idades.",
+      "link": "https://www.sescsp.org.br/programacao/?id=29&unidade=Campinas",
+      "categorias": [
+        "música",
+        "teatro e artes cênicas",
+        "dança",
+        "cinema e audiovisual",
+        "oficinas e formação",
+        "lazer e esportes"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Teatro Oficina do Estudante",
+      "descricao": "oferece uma programação cultural que destaca espetáculos infantis, musicais, comédias e shows de stand-up comedy.",
+      "link": "https://www.teatrooficinadoestudante.com.br/atracoes/",
+      "categorias": [
+        "teatro e artes cênicas",
+        "música"
+      ]
+    },
+    {
+      "tipo": "categoria",
+      "nome": "Cinema",
+      "itens": [
+        {
+          "tipo": "evento",
+          "nome": "Cineclube Terracota",
+          "descricao": "programação e bastidores de um projeto cultural de exibições gratuitas de filmes e debates realizado na Cidade Universitária",
+          "link": "https://www.instagram.com/cineclubeterracota",
+          "categorias": [
+            "cinema e audiovisual"
+          ]
+        },
+        {
+          "tipo": "evento",
+          "nome": "Museu de Imagem e Som (MIS)",
+          "descricao": "espaço com exibição quase diária de filmes gratuitos e exposições artísticas.",
+          "link": "https://www.instagram.com/mis.campinas/",
+          "categorias": [
+            "cinema e audiovisual",
+            "artes visuais"
+          ]
+        }
+      ]
+    }
+  ],
+  "Páginas de divulgação": [
+    {
+      "tipo": "evento",
+      "nome": "baileyarte",
+      "descricao": "divulgação de shows e eventos alternativos por Campinas e região.",
+      "link": "https://www.instagram.com/baileyarte_/",
+      "categorias": [
+        "divulgação de eventos",
+        "música",
+        "festas e vida noturna"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Calendário de eventos da Prefeitura de Campinas",
+      "descricao": "",
+      "link": "https://www.campinas.sp.gov.br/eventos",
+      "categorias": [
+        "divulgação de eventos"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Campinas.com.br",
+      "descricao": "Agenda cultural e de lazer de Campinas e região, com eventos de teatro, shows, exposições, cinema, turismo, gastronomia, esporte e atividades para crianças.",
+      "link": "https://campinas.com.br/agenda/",
+      "categorias": [
+        "divulgação de eventos",
+        "teatro e artes cênicas",
+        "música",
+        "artes visuais",
+        "cinema e audiovisual",
+        "lazer e esportes"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Campinas Cultura e Turismo",
+      "descricao": "perfil oficial do Instagram da Secretaria de Cultura e Turismo de Campinas",
+      "link": "https://www.instagram.com/campinas.culturaturismo/",
+      "categorias": [
+        "divulgação de eventos"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "OMG Cultural",
+      "descricao": "coletivo e espaço cultural independente, atua há mais de 12 anos na promoção da inclusão social, economia solidária e arte urbana na periferia.",
+      "link": "https://www.instagram.com/omgcultural/",
+      "categorias": [
+        "cultura urbana e diversidade",
+        "feiras e economia criativa"
+      ]
+    },
+    {
+      "tipo": "categoria",
+      "nome": "Eventos específicos",
+      "itens": [
+        {
+          "tipo": "evento",
+          "nome": "Essence 808",
+          "descricao": "festa de Black Charme",
+          "link": "https://www.instagram.com/essence__808/",
+          "categorias": [
+            "música",
+            "festas e vida noturna",
+            "cultura urbana e diversidade"
+          ]
+        },
+        {
+          "tipo": "evento",
+          "nome": "O Som de Preto",
+          "descricao": "projeto e festival cultural voltado à valorização da música preta. Foca em ritmos como charme, hip hop, R&B, rap e trap",
+          "link": "https://www.instagram.com/osomdepreto/",
+          "categorias": [
+            "música",
+            "cultura urbana e diversidade",
+            "festas e vida noturna"
+          ]
+        },
+        {
+          "tipo": "evento",
+          "nome": "Samba Rock Estação",
+          "descricao": "projeto cultural e escola de dança focado na valorização e difusão da cultura preta. Promove aulas regulares de samba-rock e grandes bailes nostálgicos com shows e DJs convidados.",
+          "link": "https://www.instagram.com/sambarockestacao",
+          "categorias": [
+            "dança",
+            "música",
+            "oficinas e formação",
+            "cultura urbana e diversidade",
+            "festas e vida noturna"
+          ]
+        }
+      ]
+    }
+  ],
+  "Casas de show e bares": [
+    {
+      "tipo": "evento",
+      "nome": "CAOS",
+      "descricao": "um dos maiores clubes de música eletrônica do interior de SP",
+      "link": "https://www.instagram.com/caoscampinas/",
+      "categorias": [
+        "música",
+        "festas e vida noturna"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Club 88",
+      "descricao": "festas, shows ao vivo, festas pop, eletrônicas e noites temáticas.",
+      "link": "https://www.instagram.com/club88oficial/",
+      "categorias": [
+        "música",
+        "festas e vida noturna"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Jimmy Rocker",
+      "descricao": "rock ao vivo.",
+      "link": "https://www.instagram.com/jimmyrockerbar/",
+      "categorias": [
+        "música",
+        "festas e vida noturna"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Noturna Club",
+      "descricao": "Casa com estética gótica/dark • atmosfera imersiva • rolê alternativo",
+      "link": "https://www.instagram.com/noturnaclub/",
+      "categorias": [
+        "festas e vida noturna",
+        "cultura urbana e diversidade"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Pista 2002",
+      "descricao": "casa de shows na Fazenda Santa Cândida com pista de skate, gastronomia, campeonatos e eventos musicais.",
+      "link": "https://www.instagram.com/pista2002/",
+      "categorias": [
+        "música",
+        "lazer e esportes",
+        "festas e vida noturna"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Woodstock Music Bar",
+      "descricao": "casa de shows no Jardim Chapadão com eventos de rock e metal, além de festas alternativas voltadas para a cultura geek, gótica, nostalgia de décadas passadas e flashback.",
+      "link": "https://www.instagram.com/woodstock_music_bar/",
+      "categorias": [
+        "música",
+        "festas e vida noturna",
+        "cultura geek e jogos",
+        "cultura urbana e diversidade"
+      ]
+    },
+    {
+      "tipo": "categoria",
+      "nome": "Barão Geraldo",
+      "itens": [
+        {
+          "tipo": "evento",
+          "nome": "Barbieri Casa de Samba",
+          "descricao": "casa de shows com rodas de samba, apresentações de pagode e shows de artistas.",
+          "link": "https://www.instagram.com/barbieri_casadesamba/",
+          "categorias": [
+            "música",
+            "festas e vida noturna"
+          ]
+        },
+        {
+          "tipo": "evento",
+          "nome": "Brasuca Multicultural",
+          "descricao": "casa de shows com MPB, pop, rock, reggae, forró e festas nostálgicas.",
+          "link": "https://www.instagram.com/brasucamulticultural/",
+          "categorias": [
+            "música",
+            "festas e vida noturna"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "categoria",
+      "nome": "Cambuí/Taquaral/Centro",
+      "itens": [
+        {
+          "tipo": "evento",
+          "nome": "Alma Campinas",
+          "descricao": "bar no Cambuí com música variada, incluindo jazz, bossa nova, samba, soul, black music, R&B e funky soul.",
+          "link": "https://www.instagram.com/almacampinas",
+          "categorias": [
+            "música",
+            "festas e vida noturna"
+          ]
+        },
+        {
+          "tipo": "evento",
+          "nome": "Alma Grey Bowl",
+          "descricao": "bar no Novo Taquaral com pista de skate interna, música, gastronomia e cultura urbana.",
+          "link": "https://www.instagram.com/almagreybowl/",
+          "categorias": [
+            "música",
+            "lazer e esportes",
+            "cultura urbana e diversidade"
+          ]
+        },
+        {
+          "tipo": "evento",
+          "nome": "Grafia Bar",
+          "descricao": "bar no Cambuí focado em música eletrônica, funk e outros ritmos.",
+          "link": "https://www.instagram.com/grafiabar/",
+          "categorias": [
+            "música",
+            "festas e vida noturna"
+          ]
+        }
+      ]
+    }
+  ],
+  "Cultura geek & otaku": [
+    {
+      "tipo": "evento",
+      "nome": "Anime Geek Eventos",
+      "descricao": "divulga um festival de cultura pop na região, organizando grandes encontros periódicos que reúnem concursos de cosplay, apresentações e dança K-Pop, arenas de games, feira de expositores e atividades abertas para o público otaku e nerd.",
+      "link": "https://www.instagram.com/animegeek.eventos/",
+      "categorias": [
+        "cultura geek e jogos",
+        "dança",
+        "feiras e economia criativa",
+        "festas e vida noturna"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Calendário nerd",
+      "descricao": "plataforma que permite buscar eventos da cultura geek, como feiras, convenções, encontros de cosplay, games, animes, quadrinhos e RPG.",
+      "link": "https://calendarionerd.com.br/",
+      "categorias": [
+        "divulgação de eventos",
+        "cultura geek e jogos"
+      ]
+    },
+    {
+      "tipo": "evento",
+      "nome": "Nipo Campinas",
+      "descricao": "Instituto Cultural Nipo Brasileiro de Campinas",
+      "link": "https://www.instagram.com/nipocampinas/",
+      "categorias": [
+        "cultura urbana e diversidade"
+      ]
+    },
+    {
+      "tipo": "categoria",
+      "nome": "RPG",
+      "itens": [
+        {
+          "tipo": "evento",
+          "nome": "Clube Lúdico",
+          "descricao": "luderia e espaço de convivência com jogos de tabuleiro, promovendo o aluguel de títulos, comidas e bebidas para acompanhar as partidas, além de organizar encontros temáticos de RPG, campeonatos e grandes eventos mensais de jogatina abertos ao público.",
+          "link": "https://www.instagram.com/clubeludico",
+          "categorias": [
+            "cultura geek e jogos",
+            "lazer e esportes"
+          ]
+        },
+        {
+          "tipo": "evento",
+          "nome": "Espaço ARCS",
+          "descricao": "luderia e espaço de convivência com jogos de tabuleiro, promovendo o aluguel de títulos, comidas e bebidas para acompanhar as partidas, além de organizar encontros temáticos de RPG, campeonatos e grandes eventos mensais de jogatina abertos ao público.",
+          "link": "https://www.instagram.com/espacoarcs",
+          "categorias": [
+            "cultura geek e jogos",
+            "lazer e esportes"
+          ]
+        },
+        {
+          "tipo": "evento",
+          "nome": "MuitoColecionaveis Boardgames",
+          "descricao": "hamburgueria, luderia e loja de card games. Promove um espaço com aluguel de jogos de tabuleiro, campeonatos oficiais de TCG e encontros de jogatina.",
+          "link": "https://www.instagram.com/muito_colecionaveis",
+          "categorias": [
+            "cultura geek e jogos",
+            "lazer e esportes"
+          ]
+        },
+        {
+          "tipo": "evento",
+          "nome": "Refúgio do RPG",
+          "descricao": "perfil no Instagram dedicado à divulgação de atividades, encontros e conteúdos relacionados a RPG de mesa.",
+          "link": "https://www.instagram.com/refugiodorpg_oficial",
+          "categorias": [
+            "cultura geek e jogos",
+            "divulgação de eventos"
+          ]
+        }
+      ]
+    }
+  ]
+}
