@@ -93,6 +93,12 @@
       "link": "https://www.instagram.com/omgcultural/"
     },
     {
+      "tipo": "evento",
+      "nome": "Rolê Barão Geraldo",
+      "descricao": "Divulgação de atividades em Barão Geraldo.",
+      "link": "https://www.instagram.com/rolebaraogeraldo/"
+    },
+    {
       "tipo": "categoria",
       "nome": "Eventos específicos",
       "itens": [
