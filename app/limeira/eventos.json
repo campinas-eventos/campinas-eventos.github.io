@@ -1,0 +1,18 @@
+{
+  "Feiras e eventos culturais": [
+    {
+      "tipo": "evento",
+      "nome": "CASA HERA",
+      "descricao": "Casa criativa & espaço cultural independente.",
+      "link": "https://www.instagram.com/heracoletiva/"
+    }
+  ],
+  "Casas de show e bares": [
+    {
+      "tipo": "evento",
+      "nome": "Blue bar",
+      "descricao": "Casa de shows com pagode e música sertaneja.",
+      "link": "https://www.instagram.com/bluebar08/"
+    }
+  ]
+}

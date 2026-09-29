@@ -97,33 +97,15 @@
       "nome": "Rolê Barão Geraldo",
       "descricao": "Divulgação de atividades em Barão Geraldo.",
       "link": "https://www.instagram.com/rolebaraogeraldo/"
-    },
-    {
-      "tipo": "categoria",
-      "nome": "Eventos específicos",
-      "itens": [
-        {
-          "tipo": "evento",
-          "nome": "Essence 808",
-          "descricao": "festa de Black Charme",
-          "link": "https://www.instagram.com/essence__808/"
-        },
-        {
-          "tipo": "evento",
-          "nome": "O Som de Preto",
-          "descricao": "projeto e festival cultural voltado à valorização da música preta. Foca em ritmos como charme, hip hop, R&B, rap e trap",
-          "link": "https://www.instagram.com/osomdepreto/"
-        },
-        {
-          "tipo": "evento",
-          "nome": "Samba Rock Estação",
-          "descricao": "projeto cultural e escola de dança focado na valorização e difusão da cultura preta. Promove aulas regulares de samba-rock e grandes bailes nostálgicos com shows e DJs convidados.",
-          "link": "https://www.instagram.com/sambarockestacao"
-        }
-      ]
     }
   ],
   "Casas de show e bares": [
+    {
+      "tipo": "evento",
+      "nome": "Campinas Hall",
+      "descricao": "Espaço de shows e eventos situado na Fazenda Santa Cândida.",
+      "link": "https://www.instagram.com/campinashall/"
+    },
     {
       "tipo": "evento",
       "nome": "CAOS",
@@ -135,6 +117,24 @@
       "nome": "Club 88",
       "descricao": "festas, shows ao vivo, festas pop, eletrônicas e noites temáticas.",
       "link": "https://www.instagram.com/club88oficial/"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Doka Bar",
+      "descricao": "Bar no bairro Jardim do Trevo com funk e música eletrônica.",
+      "link": "https://www.instagram.com/doka.bar"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Estação Campinas Beach Sports",
+      "descricao": "Bar esportivo no Jardim Morumbi com pagode, samba e eventos esportivos.",
+      "link": "https://www.instagram.com/estacaocampinas_/"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Garden 19",
+      "descricao": "bar e balada em Chácara da Barra com pagode e sertanejo ao vivo.",
+      "link": "https://www.instagram.com/garden19oficial/"
     },
     {
       "tipo": "evento",

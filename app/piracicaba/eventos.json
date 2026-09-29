@@ -5,6 +5,12 @@
       "nome": "Barley’s Vila",
       "descricao": "Chopperia e hamburgueria com shows de música ao vivo",
       "link": "https://www.instagram.com/barleys_vila/"
+    },
+    {
+      "tipo": "evento",
+      "nome": "Garden Piracicaba",
+      "descricao": "Casa de shows no centro de Piracicaba, com shows de música eletrônica e sertaneja e funk.",
+      "link": "https://www.instagram.com/gardenpiracicaba"
     }
   ]
 }
