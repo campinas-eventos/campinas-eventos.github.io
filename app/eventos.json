@@ -8,6 +8,12 @@
     },
     {
       "tipo": "evento",
+      "nome": "Mapa dos festivais",
+      "descricao": "Plataforma com os próximos festivas de música que ocorrerão no Brasil.",
+      "link": "https://mapadosfestivais.com.br/"
+    },
+    {
+      "tipo": "evento",
       "nome": "Red Bull",
       "descricao": "Lista dos próximos eventos esportivos da Red Bull no Brasil.",
       "link": "https://www.redbull.com/br-pt/events/?filter.countryCode=BR&filter.toggle.date=upcoming&filter.toggle.live=all"
