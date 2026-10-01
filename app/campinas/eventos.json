@@ -104,13 +104,15 @@
       "tipo": "evento",
       "nome": "Campinas Hall",
       "descricao": "Espaço de shows e eventos situado na Fazenda Santa Cândida.",
-      "link": "https://www.instagram.com/campinashall/"
+      "link": "https://www.instagram.com/campinashall/",
+      "coordenadas": [-22.843148370115255, -47.05402356661981]
     },
     {
       "tipo": "evento",
       "nome": "CAOS",
       "descricao": "um dos maiores clubes de música eletrônica do interior de SP",
-      "link": "https://www.instagram.com/caoscampinas/"
+      "link": "https://www.instagram.com/caoscampinas/",
+      "coordenadas": [-22.846734538195147, -47.04163889358874]
     },
     {
       "tipo": "evento",

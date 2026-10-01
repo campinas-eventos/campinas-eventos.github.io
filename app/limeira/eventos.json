@@ -4,7 +4,8 @@
       "tipo": "evento",
       "nome": "CASA HERA",
       "descricao": "Casa criativa & espaço cultural independente.",
-      "link": "https://www.instagram.com/heracoletiva/"
+      "link": "https://www.instagram.com/heracoletiva/",
+      "coordenadas": [-22.572237849150557, -47.39585533057567]
     }
   ],
   "Casas de show e bares": [
@@ -12,7 +13,8 @@
       "tipo": "evento",
       "nome": "Blue bar",
       "descricao": "Casa de shows com pagode e música sertaneja.",
-      "link": "https://www.instagram.com/bluebar08/"
+      "link": "https://www.instagram.com/bluebar08/",
+      "coordenadas": [-22.561492550849483, -47.412036725309015]
     }
   ]
 }

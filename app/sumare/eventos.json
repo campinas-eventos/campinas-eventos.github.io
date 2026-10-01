@@ -4,19 +4,22 @@
       "tipo": "evento",
       "nome": "Fox Pub",
       "descricao": "open bar, festas temáticas e shows com DJs e atrações regionais.",
-      "link": "https://www.instagram.com/fox.pubb/"
+      "link": "https://www.instagram.com/fox.pubb/",
+      "coordenadas": [-22.853446314575322, -47.18415718224688]
     },
     {
       "tipo": "evento",
       "nome": "Hangar 888",
       "descricao": "bar no centro da cidade, focado em baladas e camarotes.",
-      "link": "https://www.instagram.com/hangar888bar/"
+      "link": "https://www.instagram.com/hangar888bar/",
+      "coordenadas": [-22.82598020226301, -47.27107269480811]
     },
     {
       "tipo": "evento",
       "nome": "Le Vive Boulevard",
       "descricao": "centro comercial com shows ao vivo e diversas opções gastronômicas.",
-      "link": "https://www.instagram.com/leviveboulevard/"
+      "link": "https://www.instagram.com/leviveboulevard/",
+      "coordenadas": [-22.827049702298943, -47.21057858479595]
     }
   ],
   "Feiras e eventos culturais": [
