@@ -130,7 +130,8 @@
       "tipo": "evento",
       "nome": "Estação Campinas Beach Sports",
       "descricao": "Bar esportivo no Jardim Morumbi com pagode, samba e eventos esportivos.",
-      "link": "https://www.instagram.com/estacaocampinas_/"
+      "link": "https://www.instagram.com/estacaocampinas_/",
+      "coordenadas": [-22.963127044964565, -47.10957435508576]
     },
     {
       "tipo": "evento",
@@ -154,13 +155,15 @@
       "tipo": "evento",
       "nome": "Pista 2002",
       "descricao": "casa de shows na Fazenda Santa Cândida com pista de skate, gastronomia, campeonatos e eventos musicais.",
-      "link": "https://www.instagram.com/pista2002/"
+      "link": "https://www.instagram.com/pista2002/",
+      "coordenadas": [-22.83604426957586, -47.03496328992983]
     },
     {
       "tipo": "evento",
       "nome": "Woodstock Music Bar",
-      "descricao": "casa de shows no Jardim Chapadão com eventos de rock e metal, além de festas alternativas voltadas para a cultura geek, gótica, nostalgia de décadas passadas e flashback.",
-      "link": "https://www.instagram.com/woodstock_music_bar/"
+      "descricao": "casa de shows no Jardim Chapadão com shows de rock, metal, festas alternativas, geek, gótica, nostalgia de décadas passadas e flashback.",
+      "link": "https://www.instagram.com/woodstock_music_bar/",
+      "coordenadas": [-22.898851571965828, -47.08503897457146]
     },
     {
       "tipo": "categoria",
@@ -170,13 +173,22 @@
           "tipo": "evento",
           "nome": "Barbieri Casa de Samba",
           "descricao": "casa de shows com rodas de samba, apresentações de pagode e shows de artistas.",
-          "link": "https://www.instagram.com/barbieri_casadesamba/"
+          "link": "https://www.instagram.com/barbieri_casadesamba/",
+          "coordenadas": [-22.817827990086204, -47.099127604021874]
         },
         {
           "tipo": "evento",
           "nome": "Brasuca Multicultural",
           "descricao": "casa de shows com MPB, pop, rock, reggae, forró e festas nostálgicas.",
-          "link": "https://www.instagram.com/brasucamulticultural/"
+          "link": "https://www.instagram.com/brasucamulticultural/",
+          "coordenadas": [-22.822918946693147, -47.08517625196169]
+        },
+        {
+          "tipo": "evento",
+          "nome": "ReÚne, Comida & Cultura",
+          "descricao": "apresentações de música ao vivo voltadas ao blues, reggae, jazz e releituras do rock e MPB.",
+          "link": "https://www.instagram.com/reune_comida_cultura/",
+          "coordenadas": [-22.82409780892586, -47.08166850463408]
         }
       ]
     },
@@ -188,7 +200,8 @@
           "tipo": "evento",
           "nome": "Alma Campinas",
           "descricao": "bar no Cambuí com música variada, incluindo jazz, bossa nova, samba, soul, black music, R&B e funky soul.",
-          "link": "https://www.instagram.com/almacampinas"
+          "link": "https://www.instagram.com/almacampinas",
+          "coordenadas": [-22.899125699349575, -47.05066205753251]
         },
         {
           "tipo": "evento",

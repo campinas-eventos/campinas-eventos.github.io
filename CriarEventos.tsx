@@ -17,7 +17,7 @@ export default function criarEventos(
                     {itens.map((item) => {
                             if (item instanceof Evento) {
                                 return <li key={item.url}>
-                                    <a href={item.url}>{item.titulo}</a>{item.descricao}
+                                    <a href={item.url} target={"_blank"}>{item.titulo}</a>{item.descricao}
                                 </li>
                             } else if (item instanceof Categoria) {
                                 return <li key={item.titulo}>
@@ -25,7 +25,7 @@ export default function criarEventos(
                                     <ul>
                                         {item.eventos.map((evento) => (
                                             <li key={evento.url}>
-                                                <a href={evento.url}>{evento.titulo}</a>{evento.descricao}
+                                                <a href={evento.url} target={"_blank"}>{evento.titulo}</a>{evento.descricao}
                                             </li>
                                         ))}
                                     </ul>

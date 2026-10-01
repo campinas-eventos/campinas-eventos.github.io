@@ -53,12 +53,26 @@ const pinIcon = new Icon({
 });
 
 function obterLocais(local: any): Local[] {
-    return Object.entries(local).flatMap(([categoria, locais]: [string, any]) =>
+    const locais = Object.entries(local).flatMap(([categoria, locais]: [string, any]) =>
         locais.filter((local: any) => local.coordenadas !== undefined).map((local: any) => ({
             ...local,
             categoria,
         }))
     ) as Local[];
+
+    const categorias: Local[] = []
+
+    Object.entries(local).forEach(([categoria, locais]: [string, any]) =>
+        locais.filter((local:any) => local.tipo === "categoria").forEach((local: any) => {
+            local.itens.filter((itemCategoria: any) => itemCategoria.coordenadas !== undefined).forEach((itemCategoria: any) => {
+                categorias.push({
+                    ...itemCategoria,
+                    categoria
+                })
+            })
+        })
+    );
+    return [...locais, ...categorias]
 }
 
 export default function Mapa() {
@@ -103,20 +117,18 @@ export default function Mapa() {
                                 maxWidth={280}
                             >
                                 <div className="popup-conteudo">
-                                    <span className="popup-categoria">{local.categoria}</span>
-
                                     <h3>{local.nome}</h3>
 
                                     <p style={{margin: 0}}>{local.descricao}</p>
-
+                                    <br/>
                                     <a
                                         href={local.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Ver informações
+                                        Página
                                     </a>
-                                    <br/>
+                                    &nbsp;-&nbsp;
                                     <a
                                         href={`https://www.google.com/maps/dir/?api=1&origin=&destination=${local.coordenadas[0]}%2C${local.coordenadas[1]}&travelmode=driving`}
                                         target="_blank"
