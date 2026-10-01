@@ -1,0 +1,26 @@
+.mapa-page h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.mapa,
+.mapa-loading {
+    width: 100%;
+    height: clamp(320px, 65vh, 640px);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.mapa {
+    isolation: isolate;
+    z-index: 0;
+}
+
+.mapa-loading {
+    display: grid;
+    place-items: center;
+    color: var(--text-muted);
+    background: var(--surface);
+}
